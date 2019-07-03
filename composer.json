@@ -1,0 +1,12 @@
+{
+    "name": "fredericomfalcao/bootstrapcssclasses",
+    "description": "A simple PHP framework to create web pages with Bootstrap CSS by Tweeter (v3.4.1)",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Frederico Falcao",
+            "email": "fredericomfalcao@hotmail.com"
+        }
+    ],
+    "require": {}
+}
