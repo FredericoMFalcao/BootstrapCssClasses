@@ -1,0 +1,296 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/2b0aa59/
+BUTTON_OPT_BLOCK_LEVEL	css/5_Buttons.php	/^define("BUTTON_OPT_BLOCK_LEVEL",   256);$/;"	d
+BUTTON_OPT_DEFAULT	css/5_Buttons.php	/^define("BUTTON_OPT_DEFAULT",   1); $/;"	d
+BUTTON_OPT_DISABLED	css/5_Buttons.php	/^define("BUTTON_OPT_DISABLED",      512);$/;"	d
+BUTTON_OPT_INPUT	css/5_Buttons.php	/^define("BUTTON_OPT_INPUT"  ,   4); $/;"	d
+BUTTON_OPT_LINK	css/5_Buttons.php	/^define("BUTTON_OPT_LINK"   ,   2); $/;"	d
+BUTTON_OPT_SUBMIT	css/5_Buttons.php	/^define("BUTTON_OPT_SUBMIT" ,   8); $/;"	d
+BUTTON_SIZE_DEFAULT	css/5_Buttons.php	/^define("BUTTON_SIZE_DEFAULT",       32);$/;"	d
+BUTTON_SIZE_EXTRA_SMALL	css/5_Buttons.php	/^define("BUTTON_SIZE_EXTRA_SMALL",  128);$/;"	d
+BUTTON_SIZE_LARGE	css/5_Buttons.php	/^define("BUTTON_SIZE_LARGE",         16);$/;"	d
+BUTTON_SIZE_SMALL	css/5_Buttons.php	/^define("BUTTON_SIZE_SMALL",         64);$/;"	d
+DOM_Body	1_DOM_Elements.php	/^class DOM_Body extends HTMLElement { public function __construct() { parent::__construct("body")/;"	c
+DOM_CSS_File	1_DOM_Elements.php	/^class DOM_CSS_File extends HTMLElement {$/;"	c
+DOM_Head	1_DOM_Elements.php	/^class DOM_Head extends HTMLElement { $/;"	c
+DOM_Html	1_DOM_Elements.php	/^class DOM_Html extends HTMLElement { public function __construct(DOM_Head $head, DOM_Body $body /;"	c
+DOM_Script	1_DOM_Elements.php	/^class DOM_Script extends HTMLElement {$/;"	c
+FORM_FIELD_SIZE_LARGE	css/4_Forms.php	/^define("FORM_FIELD_SIZE_LARGE",    2); $FORM_SIZES[ 2] = "input-lg";$/;"	d
+FORM_FIELD_SIZE_SMALL	css/4_Forms.php	/^define("FORM_FIELD_SIZE_SMALL",    1); $FORM_SIZES[ 1] = "input-sm";$/;"	d
+FORM_FIELD_TYPE_CHECKBOX	css/4_Forms.php	/^define("FORM_FIELD_TYPE_CHECKBOX",15); $FORM_TYPES[15] = "checkbox";$/;"	d
+FORM_FIELD_TYPE_COLOR	css/4_Forms.php	/^define("FORM_FIELD_TYPE_COLOR",   13); $FORM_TYPES[13] = "color";$/;"	d
+FORM_FIELD_TYPE_DATE	css/4_Forms.php	/^define("FORM_FIELD_TYPE_DATE",     4); $FORM_TYPES[ 4] = "date";$/;"	d
+FORM_FIELD_TYPE_DATETIME	css/4_Forms.php	/^define("FORM_FIELD_TYPE_DATETIME", 2); $FORM_TYPES[ 2] = "datetime";$/;"	d
+FORM_FIELD_TYPE_DATETIMEL	css/4_Forms.php	/^define("FORM_FIELD_TYPE_DATETIMEL",3); $FORM_TYPES[ 3] = "datetime-local";$/;"	d
+FORM_FIELD_TYPE_EMAIL	css/4_Forms.php	/^define("FORM_FIELD_TYPE_EMAIL",    9); $FORM_TYPES[ 9] = "email";$/;"	d
+FORM_FIELD_TYPE_FILE	css/4_Forms.php	/^define("FORM_FIELD_TYPE_FILE",    14); $FORM_TYPES[14] = "file";$/;"	d
+FORM_FIELD_TYPE_MONTH	css/4_Forms.php	/^define("FORM_FIELD_TYPE_MONTH",    5); $FORM_TYPES[ 5] = "month";$/;"	d
+FORM_FIELD_TYPE_NUMBER	css/4_Forms.php	/^define("FORM_FIELD_TYPE_NUMBER",   8); $FORM_TYPES[ 8] = "number";$/;"	d
+FORM_FIELD_TYPE_PASSWORD	css/4_Forms.php	/^define("FORM_FIELD_TYPE_PASSWORD", 1); $FORM_TYPES[ 1] = "password";$/;"	d
+FORM_FIELD_TYPE_SEARCH	css/4_Forms.php	/^define("FORM_FIELD_TYPE_SEARCH",  11); $FORM_TYPES[11] = "search";$/;"	d
+FORM_FIELD_TYPE_TEL	css/4_Forms.php	/^define("FORM_FIELD_TYPE_TEL",     12); $FORM_TYPES[12] = "tel";$/;"	d
+FORM_FIELD_TYPE_TEXT	css/4_Forms.php	/^define("FORM_FIELD_TYPE_TEXT",     0); $FORM_TYPES[ 0] = "text";$/;"	d
+FORM_FIELD_TYPE_TIME	css/4_Forms.php	/^define("FORM_FIELD_TYPE_TIME",     6); $FORM_TYPES[ 6] = "time";$/;"	d
+FORM_FIELD_TYPE_URL	css/4_Forms.php	/^define("FORM_FIELD_TYPE_URL",     10); $FORM_TYPES[10] = "url";$/;"	d
+FORM_FIELD_TYPE_WEEK	css/4_Forms.php	/^define("FORM_FIELD_TYPE_WEEK",     7); $FORM_TYPES[ 7] = "week";$/;"	d
+FORM_OPT_DISABLED	css/4_Forms.php	/^define("FORM_OPT_DISABLED",   4);$/;"	d
+FORM_OPT_ERROR	css/4_Forms.php	/^define("FORM_OPT_ERROR",     32);$/;"	d
+FORM_OPT_HORIZONTAL	css/4_Forms.php	/^define("FORM_OPT_HORIZONTAL", 2);$/;"	d
+FORM_OPT_INC_ICON	css/4_Forms.php	/^define("FORM_OPT_INC_ICON", 256);$/;"	d
+FORM_OPT_INLINE	css/4_Forms.php	/^define("FORM_OPT_INLINE",     1);$/;"	d
+FORM_OPT_MULTIPLE	css/4_Forms.php	/^define("FORM_OPT_MULTIPLE",   8);$/;"	d
+FORM_OPT_NORMAL	css/4_Forms.php	/^define("FORM_OPT_NORMAL",     0);$/;"	d
+FORM_OPT_READONLY	css/4_Forms.php	/^define("FORM_OPT_READONLY",  16);$/;"	d
+FORM_OPT_SUCCESS	css/4_Forms.php	/^define("FORM_OPT_SUCCESS",  128);$/;"	d
+FORM_OPT_WARNING	css/4_Forms.php	/^define("FORM_OPT_WARNING",   64);$/;"	d
+GRAPHICAL_PROP	css/1_Typography.php	/^if (!isset($GRAPHICAL_PROP)) $GRAPHICAL_PROP = [];$/;"	v
+GRAPHICAL_PROP_BASIC_BLOCK_SCROLLABLE	css/2_Code.php	/^define("GRAPHICAL_PROP_BASIC_BLOCK_SCROLLABLE", 128); $GRAPHICAL_PROP[128] = "pre-scrollable";$/;"	d
+GRAPHICAL_PROP_BLOCKQUOTE_REVERSE	css/1_Typography.php	/^define("GRAPHICAL_PROP_BLOCKQUOTE_REVERSE",15); $GRAPHICAL_PROP[15] = "blockquote-reverse";$/;"	d
+GRAPHICAL_PROP_CONTEXT_ACTIVE	css/3_Tables.php	/^define("GRAPHICAL_PROP_CONTEXT_ACTIVE",   23); $GRAPHICAL_PROP[ 23] = "active";$/;"	d
+GRAPHICAL_PROP_CONTEXT_DANGER	css/3_Tables.php	/^define("GRAPHICAL_PROP_CONTEXT_DANGER",   28); $GRAPHICAL_PROP[ 28] = "danger";$/;"	d
+GRAPHICAL_PROP_CONTEXT_INFO	css/3_Tables.php	/^define("GRAPHICAL_PROP_CONTEXT_INFO",     26); $GRAPHICAL_PROP[ 26] = "info";$/;"	d
+GRAPHICAL_PROP_CONTEXT_LINK	css/3_Tables.php	/^define("GRAPHICAL_PROP_CONTEXT_LINK",     29); $GRAPHICAL_PROP[ 29] = "link";$/;"	d
+GRAPHICAL_PROP_CONTEXT_PRIMARY	css/3_Tables.php	/^define("GRAPHICAL_PROP_CONTEXT_PRIMARY",  24); $GRAPHICAL_PROP[ 24] = "primary";$/;"	d
+GRAPHICAL_PROP_CONTEXT_SUCCESS	css/3_Tables.php	/^define("GRAPHICAL_PROP_CONTEXT_SUCCESS",  25); $GRAPHICAL_PROP[ 25] = "success";$/;"	d
+GRAPHICAL_PROP_CONTEXT_WARNING	css/3_Tables.php	/^define("GRAPHICAL_PROP_CONTEXT_WARNING",  27); $GRAPHICAL_PROP[ 27] = "warning";$/;"	d
+GRAPHICAL_PROP_DESCRIPTION_HORIZONTAL	css/1_Typography.php	/^define("GRAPHICAL_PROP_DESCRIPTION_HORIZONTAL",   18); $GRAPHICAL_PROP[18] = "dl-horizontal";$/;"	d
+GRAPHICAL_PROP_END_WITH_NEWLINE	css/1_Typography.php	/^define("GRAPHICAL_PROP_END_WITH_NEWLINE",64); $GRAPHICAL_PROP[ 64] = "";$/;"	d
+GRAPHICAL_PROP_H1	css/1_Typography.php	/^define("GRAPHICAL_PROP_H1", 1); $GRAPHICAL_PROP[1] = "h1";$/;"	d
+GRAPHICAL_PROP_H2	css/1_Typography.php	/^define("GRAPHICAL_PROP_H2", 2); $GRAPHICAL_PROP[2] = "h2";$/;"	d
+GRAPHICAL_PROP_H3	css/1_Typography.php	/^define("GRAPHICAL_PROP_H3", 3); $GRAPHICAL_PROP[3] = "h3";$/;"	d
+GRAPHICAL_PROP_H4	css/1_Typography.php	/^define("GRAPHICAL_PROP_H4", 4); $GRAPHICAL_PROP[4] = "h4";$/;"	d
+GRAPHICAL_PROP_H5	css/1_Typography.php	/^define("GRAPHICAL_PROP_H5", 5); $GRAPHICAL_PROP[5] = "h5";$/;"	d
+GRAPHICAL_PROP_H6	css/1_Typography.php	/^define("GRAPHICAL_PROP_H6", 6); $GRAPHICAL_PROP[6] = "h6";$/;"	d
+GRAPHICAL_PROP_IMAGE_CIRCLE	css/6_Images.php	/^define("GRAPHICAL_PROP_IMAGE_CIRCLE",      2); $GRAPHICAL_PROP[  2] = "img-circle";$/;"	d
+GRAPHICAL_PROP_IMAGE_ROUNDED	css/6_Images.php	/^define("GRAPHICAL_PROP_IMAGE_ROUNDED",     1); $GRAPHICAL_PROP[  1] = "img-rounded";$/;"	d
+GRAPHICAL_PROP_IMAGE_THUMBNAIL	css/6_Images.php	/^define("GRAPHICAL_PROP_IMAGE_THUMBNAIL",   3); $GRAPHICAL_PROP[  3] = "img-thumbnail";$/;"	d
+GRAPHICAL_PROP_LIST_INLINE	css/1_Typography.php	/^define("GRAPHICAL_PROP_LIST_INLINE",   17); $GRAPHICAL_PROP[17] = "list-inline";$/;"	d
+GRAPHICAL_PROP_LIST_UNSTYLED	css/1_Typography.php	/^define("GRAPHICAL_PROP_LIST_UNSTYLED", 16); $GRAPHICAL_PROP[16] = "list-unstyled";$/;"	d
+GRAPHICAL_PROP_TABLE_BORDERED	css/3_Tables.php	/^define("GRAPHICAL_PROP_TABLE_BORDERED",       20); $GRAPHICAL_PROP[ 20] = "table-bordered";$/;"	d
+GRAPHICAL_PROP_TABLE_CONDENSED	css/3_Tables.php	/^define("GRAPHICAL_PROP_TABLE_CONDENSED",      22); $GRAPHICAL_PROP[ 22] = "table-condensed";$/;"	d
+GRAPHICAL_PROP_TABLE_HOVER	css/3_Tables.php	/^define("GRAPHICAL_PROP_TABLE_HOVER",          21); $GRAPHICAL_PROP[ 21] = "table-hover";$/;"	d
+GRAPHICAL_PROP_TABLE_RESPONSIVE	css/3_Tables.php	/^define("GRAPHICAL_PROP_TABLE_RESPONSIVE",    30); $GRAPHICAL_PROP[ 30] = "table-responsive";$/;"	d
+GRAPHICAL_PROP_TABLE_STRIPPED_ROWS	css/3_Tables.php	/^define("GRAPHICAL_PROP_TABLE_STRIPPED_ROWS",  19); $GRAPHICAL_PROP[ 19] = "table-striped";$/;"	d
+GRAPHICAL_PROP_TEXT_ALIGN_CENTER	css/1_Typography.php	/^define("GRAPHICAL_PROP_TEXT_ALIGN_CENTER",   8); $GRAPHICAL_PROP[ 8] = "text-center";$/;"	d
+GRAPHICAL_PROP_TEXT_ALIGN_JUSTIFY	css/1_Typography.php	/^define("GRAPHICAL_PROP_TEXT_ALIGN_JUSTIFY",  10); $GRAPHICAL_PROP[10] = "text-justify";$/;"	d
+GRAPHICAL_PROP_TEXT_ALIGN_LEFT	css/1_Typography.php	/^define("GRAPHICAL_PROP_TEXT_ALIGN_LEFT",     7); $GRAPHICAL_PROP[ 7] = "text-left";$/;"	d
+GRAPHICAL_PROP_TEXT_ALIGN_NOWRAP	css/1_Typography.php	/^define("GRAPHICAL_PROP_TEXT_ALIGN_NOWRAP",   11); $GRAPHICAL_PROP[11] = "text-nowrap";$/;"	d
+GRAPHICAL_PROP_TEXT_ALIGN_RIGHT	css/1_Typography.php	/^define("GRAPHICAL_PROP_TEXT_ALIGN_RIGHT",    9); $GRAPHICAL_PROP[ 9] = "text-right";$/;"	d
+GRAPHICAL_PROP_TEXT_CAPITALIZE	css/1_Typography.php	/^define("GRAPHICAL_PROP_TEXT_CAPITALIZE",14); $GRAPHICAL_PROP[14] = "text-capitalize";$/;"	d
+GRAPHICAL_PROP_TEXT_LOWERCASE	css/1_Typography.php	/^define("GRAPHICAL_PROP_TEXT_LOWERCASE", 12); $GRAPHICAL_PROP[12] = "text-lowercase";$/;"	d
+GRAPHICAL_PROP_TEXT_UPPERCASE	css/1_Typography.php	/^define("GRAPHICAL_PROP_TEXT_UPPERCASE", 13); $GRAPHICAL_PROP[13] = "text-uppercase";$/;"	d
+HTMLElement	0_HTMLElement.php	/^class HTMLElement {$/;"	c
+LISTS_OPT_ORDERED	css/1_Typography.php	/^define("LISTS_OPT_ORDERED",2);$/;"	d
+LISTS_OPT_UNORDERED	css/1_Typography.php	/^define("LISTS_OPT_UNORDERED",1);$/;"	d
+TABLE_CELL_OPT_HEADER	css/3_Tables.php	/^define("TABLE_CELL_OPT_HEADER", 2);$/;"	d
+TABLE_CELL_OPT_NORMAL	css/3_Tables.php	/^define("TABLE_CELL_OPT_NORMAL", 1);$/;"	d
+_GUI_BUTTON	css/5_Buttons.php	/^class _GUI_BUTTON extends HTMLElement {$/;"	c
+_GUI_CODE_BASIC_BLOCK	css/2_Code.php	/^class _GUI_CODE_BASIC_BLOCK extends HTMLElement {$/;"	c
+_GUI_CODE_INLINE	css/2_Code.php	/^class _GUI_CODE_INLINE extends HTMLElement {$/;"	c
+_GUI_CODE_SAMPLE_OUTPUT	css/2_Code.php	/^class _GUI_CODE_SAMPLE_OUTPUT extends HTMLElement {$/;"	c
+_GUI_CODE_USER_INPUT	css/2_Code.php	/^class _GUI_CODE_USER_INPUT extends HTMLElement {$/;"	c
+_GUI_FORM	css/4_Forms.php	/^class _GUI_FORM extends HTMLElement{$/;"	c
+_GUI_FORM_EMAIL_FIELD	css/4_Forms.php	/^class _GUI_FORM_EMAIL_FIELD extends _GUI_FORM_GENERIC_TEXTFIELD {$/;"	c
+_GUI_FORM_FILE_FIELD	css/4_Forms.php	/^class _GUI_FORM_FILE_FIELD extends _GUI_FORM_GENERIC_TEXTFIELD {$/;"	c
+_GUI_FORM_GENERIC_TEXTFIELD	css/4_Forms.php	/^class _GUI_FORM_GENERIC_TEXTFIELD extends HTMLElement {$/;"	c
+_GUI_FORM_PASSWORD_FIELD	css/4_Forms.php	/^class _GUI_FORM_PASSWORD_FIELD extends _GUI_FORM_GENERIC_TEXTFIELD {$/;"	c
+_GUI_FORM_RADIO_BUTTONS	css/4_Forms.php	/^class _GUI_FORM_RADIO_BUTTONS extends HTMLElement {$/;"	c
+_GUI_FORM_SELECT	css/4_Forms.php	/^class _GUI_FORM_SELECT extends HTMLElement {$/;"	c
+_GUI_FORM_TEXT_FIELD	css/4_Forms.php	/^class _GUI_FORM_TEXT_FIELD extends _GUI_FORM_GENERIC_TEXTFIELD {$/;"	c
+_GUI_GRID_COL	css/0_GridSystem.php	/^class _GUI_GRID_COL extends HTMLElement {$/;"	c
+_GUI_GRID_ROW	css/0_GridSystem.php	/^class _GUI_GRID_ROW extends HTMLElement {$/;"	c
+_GUI_IMAGE	css/6_Images.php	/^class _GUI_IMAGE extends HTMLElement {$/;"	c
+_GUI_TABLE_BASIC	css/3_Tables.php	/^class _GUI_TABLE_BASIC extends HTMLElement {$/;"	c
+_GUI_TABLE_CELL	css/3_Tables.php	/^class _GUI_TABLE_CELL extends HTMLElement {$/;"	c
+_GUI_TABLE_ROW	css/3_Tables.php	/^class _GUI_TABLE_ROW extends HTMLElement {$/;"	c
+_GUI_TYPOGRAPHY_Abbreviation	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Abbreviation extends HTMLElement{public function __construct(string $abbre/;"	c
+_GUI_TYPOGRAPHY_Address	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Address extends HTMLElement {public function __construct() { parent::__con/;"	c
+_GUI_TYPOGRAPHY_BR	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_BR extends HTMLElement{public function __construct() { parent::__construct/;"	c
+_GUI_TYPOGRAPHY_BlockQuote	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_BlockQuote extends HTMLElement{$/;"	c
+_GUI_TYPOGRAPHY_Bold	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Bold extends HTMLElement{public function __construct(string $mainText = ""/;"	c
+_GUI_TYPOGRAPHY_Description	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Description extends HTMLElement {$/;"	c
+_GUI_TYPOGRAPHY_DescriptionItem	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_DescriptionItem extends HTMLElement {$/;"	c
+_GUI_TYPOGRAPHY_H1	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_H1 extends HTMLElement{public function __construct(string $mainText, strin/;"	c
+_GUI_TYPOGRAPHY_H2	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_H2 extends HTMLElement{public function __construct(string $mainText, strin/;"	c
+_GUI_TYPOGRAPHY_H3	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_H3 extends HTMLElement{public function __construct(string $mainText, strin/;"	c
+_GUI_TYPOGRAPHY_H4	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_H4 extends HTMLElement{public function __construct(string $mainText, strin/;"	c
+_GUI_TYPOGRAPHY_H5	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_H5 extends HTMLElement{public function __construct(string $mainText, strin/;"	c
+_GUI_TYPOGRAPHY_H6	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_H6 extends HTMLElement{public function __construct(string $mainText, strin/;"	c
+_GUI_TYPOGRAPHY_Initialism	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Initialism extends HTMLElement{$/;"	c
+_GUI_TYPOGRAPHY_Italic	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Italic extends HTMLElement{public function __construct(string $mainText = /;"	c
+_GUI_TYPOGRAPHY_List	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_List extends HTMLElement{$/;"	c
+_GUI_TYPOGRAPHY_ListItem	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_ListItem extends HTMLElement {$/;"	c
+_GUI_TYPOGRAPHY_Mark	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Mark extends HTMLElement{public function __construct(string $mainText = ""/;"	c
+_GUI_TYPOGRAPHY_Paragraph	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Paragraph extends HTMLElement{$/;"	c
+_GUI_TYPOGRAPHY_Small	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Small extends HTMLElement{public function __construct(string $mainText = "/;"	c
+_GUI_TYPOGRAPHY_StrikeThrough	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_StrikeThrough extends HTMLElement{public function __construct(string $main/;"	c
+_GUI_TYPOGRAPHY_Underline	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Underline extends HTMLElement{public function __construct(string $mainText/;"	c
+__construct	0_HTMLElement.php	/^	public	function __construct(string $tag = "div") {if (!empty($tag)) $this->tag = $tag;}$/;"	f	class:HTMLElement
+__construct	1_DOM_Elements.php	/^	public function __construct(array $scriptsAndStylesheets = []) { $/;"	f	class:DOM_Head
+__construct	1_DOM_Elements.php	/^	public function __construct(string $url = "") { $/;"	f	class:DOM_CSS_File
+__construct	1_DOM_Elements.php	/^	public function __construct(string $url = "") { $/;"	f	class:DOM_Script
+__construct	1_DOM_Elements.php	/^class DOM_Body extends HTMLElement { public function __construct() { parent::__construct("body")/;"	f	class:DOM_Body
+__construct	1_DOM_Elements.php	/^class DOM_Html extends HTMLElement { public function __construct(DOM_Head $head, DOM_Body $body /;"	f	class:DOM_Html
+__construct	css/0_GridSystem.php	/^	public function __construct(array $szOptions ) { parent::__construct("div"); $/;"	f	class:_GUI_GRID_COL
+__construct	css/0_GridSystem.php	/^	public function __construct(array $szOptions = []) { $/;"	f	class:_GUI_GRID_ROW
+__construct	css/1_Typography.php	/^	public function __construct() { parent::__construct("dl");}$/;"	f	class:_GUI_TYPOGRAPHY_Description
+__construct	css/1_Typography.php	/^	public function __construct(int $option = LISTS_OPT_UNORDERED) { $/;"	f	class:_GUI_TYPOGRAPHY_List
+__construct	css/1_Typography.php	/^	public function __construct(string $abbreviation, string $meaning) { $/;"	f	class:_GUI_TYPOGRAPHY_Initialism
+__construct	css/1_Typography.php	/^	public function __construct(string $quote,string $source = "") { $/;"	f	class:_GUI_TYPOGRAPHY_BlockQuote
+__construct	css/1_Typography.php	/^	public function __construct(string $text = "") {$/;"	f	class:_GUI_TYPOGRAPHY_ListItem
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Abbreviation extends HTMLElement{public function __construct(string $abbre/;"	f	class:_GUI_TYPOGRAPHY_Abbreviation
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Address extends HTMLElement {public function __construct() { parent::__con/;"	f	class:_GUI_TYPOGRAPHY_Address
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_BR extends HTMLElement{public function __construct() { parent::__construct/;"	f	class:_GUI_TYPOGRAPHY_BR
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Bold extends HTMLElement{public function __construct(string $mainText = ""/;"	f	class:_GUI_TYPOGRAPHY_Bold
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_H1 extends HTMLElement{public function __construct(string $mainText, strin/;"	f	class:_GUI_TYPOGRAPHY_H1
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_H2 extends HTMLElement{public function __construct(string $mainText, strin/;"	f	class:_GUI_TYPOGRAPHY_H2
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_H3 extends HTMLElement{public function __construct(string $mainText, strin/;"	f	class:_GUI_TYPOGRAPHY_H3
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_H4 extends HTMLElement{public function __construct(string $mainText, strin/;"	f	class:_GUI_TYPOGRAPHY_H4
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_H5 extends HTMLElement{public function __construct(string $mainText, strin/;"	f	class:_GUI_TYPOGRAPHY_H5
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_H6 extends HTMLElement{public function __construct(string $mainText, strin/;"	f	class:_GUI_TYPOGRAPHY_H6
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Italic extends HTMLElement{public function __construct(string $mainText = /;"	f	class:_GUI_TYPOGRAPHY_Italic
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Mark extends HTMLElement{public function __construct(string $mainText = ""/;"	f	class:_GUI_TYPOGRAPHY_Mark
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Small extends HTMLElement{public function __construct(string $mainText = "/;"	f	class:_GUI_TYPOGRAPHY_Small
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_StrikeThrough extends HTMLElement{public function __construct(string $main/;"	f	class:_GUI_TYPOGRAPHY_StrikeThrough
+__construct	css/1_Typography.php	/^class _GUI_TYPOGRAPHY_Underline extends HTMLElement{public function __construct(string $mainText/;"	f	class:_GUI_TYPOGRAPHY_Underline
+__construct	css/1_Typography.php	/^public function __construct(string $mainText = "", bool $standOut = false) { $/;"	f	class:_GUI_TYPOGRAPHY_Paragraph
+__construct	css/1_Typography.php	/^public function __construct(string $term, string $description) {$/;"	f	class:_GUI_TYPOGRAPHY_DescriptionItem
+__construct	css/2_Code.php	/^	public function __construct(string $text) { parent::__construct("code"); $this->setInnerValue($/;"	f	class:_GUI_CODE_INLINE
+__construct	css/2_Code.php	/^	public function __construct(string $text) { parent::__construct("kbd"); $this->setInnerValue($t/;"	f	class:_GUI_CODE_USER_INPUT
+__construct	css/2_Code.php	/^	public function __construct(string $text) { parent::__construct("pre"); $this->setInnerValue($t/;"	f	class:_GUI_CODE_BASIC_BLOCK
+__construct	css/2_Code.php	/^	public function __construct(string $text) { parent::__construct("samp"); $this->setInnerValue($/;"	f	class:_GUI_CODE_SAMPLE_OUTPUT
+__construct	css/3_Tables.php	/^	public function __construct() { parent::__construct("tr"); }$/;"	f	class:_GUI_TABLE_ROW
+__construct	css/3_Tables.php	/^	public function __construct(array $columnNames = []) { parent::__construct("table"); parent::ad/;"	f	class:_GUI_TABLE_BASIC
+__construct	css/3_Tables.php	/^	public function __construct(string $text, int $opts = TABLE_CELL_OPT_NORMAL) { parent::__constr/;"	f	class:_GUI_TABLE_CELL
+__construct	css/4_Forms.php	/^	public function __construct($/;"	f	class:_GUI_FORM_GENERIC_TEXTFIELD
+__construct	css/4_Forms.php	/^	public function __construct(array $items, string $name = "", string $id = "",int $options = 0) /;"	f	class:_GUI_FORM_SELECT
+__construct	css/4_Forms.php	/^	public function __construct(int $options = FORM_OPT_NORMAL, $optValue1 = NULL ) { $/;"	f	class:_GUI_FORM
+__construct	css/4_Forms.php	/^	public function __construct(string $label, string $id, string $placeholder = "",string $help_te/;"	f	class:_GUI_FORM_EMAIL_FIELD
+__construct	css/4_Forms.php	/^	public function __construct(string $label, string $id, string $placeholder = "",string $help_te/;"	f	class:_GUI_FORM_PASSWORD_FIELD
+__construct	css/4_Forms.php	/^	public function __construct(string $label, string $id, string $placeholder = "",string $help_te/;"	f	class:_GUI_FORM_TEXT_FIELD
+__construct	css/4_Forms.php	/^	public function __construct(string $label, string $id,string $help_text = "",string $prependGro/;"	f	class:_GUI_FORM_FILE_FIELD
+__construct	css/4_Forms.php	/^	public function __construct(string $name, int $options = 0) {$this->name = $name; $this->setNoT/;"	f	class:_GUI_FORM_RADIO_BUTTONS
+__construct	css/5_Buttons.php	/^	public function __construct(string $label, string $link = "", int $options = BUTTON_OPT_DEFAULT/;"	f	class:_GUI_BUTTON
+__construct	css/6_Images.php	/^	public function __construct() {parent::__construct("img"); }$/;"	f	class:_GUI_IMAGE
+addCheckboxField	css/4_Forms.php	/^	public function addCheckboxField(string $labelText, string $id = "", string $value = "", string/;"	f	class:_GUI_FORM
+addChild	0_HTMLElement.php	/^	public  function addChild(HTMLElement $el) {$el->setParent($this); $this->children[] = $el; ret/;"	f	class:HTMLElement
+addChild	css/4_Forms.php	/^	public function addChild($el) {$/;"	f	class:_GUI_FORM
+addChildren	0_HTMLElement.php	/^	public  function addChildren(array $els) {foreach($els as $el) $this->addChild($el); return $th/;"	f	class:HTMLElement
+addClass	0_HTMLElement.php	/^	public  function addClass(string $className) {$this->css_classes[] = $className; return $this;}$/;"	f	class:HTMLElement
+addClasses	0_HTMLElement.php	/^	public  function addClasses(array $classes) {foreach($classes as $className) $this->addClass($c/;"	f	class:HTMLElement
+addGraphicalProp	0_HTMLElement.php	/^	public  function addGraphicalProp(int $value) { $/;"	f	class:HTMLElement
+addGraphicalProp	css/6_Images.php	/^	public function addGraphicalProp(int $prop) { global $GRAPHICAL_PROP; $this->addClass($GRAPHICA/;"	f	class:_GUI_IMAGE
+addGraphicalProps	0_HTMLElement.php	/^	public function addGraphicalProps(array $array) { $/;"	f	class:HTMLElement
+addItem	css/1_Typography.php	/^	public function addItem(_GUI_TYPOGRAPHY_DescriptionItem $item) { $this->addChild($item); return/;"	f	class:_GUI_TYPOGRAPHY_Description
+addItem	css/1_Typography.php	/^	public function addItem(_GUI_TYPOGRAPHY_ListItem $item) { $this->addChild($item); return $this;/;"	f	class:_GUI_TYPOGRAPHY_List
+addItem	css/4_Forms.php	/^	public function addItem(string $label, string $id = "", string $value = "", int $options = FORM/;"	f	class:_GUI_FORM_RADIO_BUTTONS
+addItems	css/1_Typography.php	/^	public function addItems(array $arr) { foreach($arr as $el) $this->addItem($el); return $this;}$/;"	f	class:_GUI_TYPOGRAPHY_List
+addOlderSibling	0_HTMLElement.php	/^	public  function addOlderSibling(HTMLElement $el) {$this->olderSiblings[] = $el; return $this;}$/;"	f	class:HTMLElement
+addSelectMenu	css/4_Forms.php	/^	public function addSelectMenu (array $items, string $name = "", string $id = "",int $options = /;"	f	class:_GUI_FORM
+addSubmitButton	css/4_Forms.php	/^	public function addSubmitButton(string $label, string $id = "") {$/;"	f	class:_GUI_FORM
+addTextArea	css/4_Forms.php	/^	public function addTextArea(int $noOfRows = 3) {$/;"	f	class:_GUI_FORM
+addYoungerSibling	0_HTMLElement.php	/^	public  function addYoungerSibling(HTMLElement $el) {$this->youngerSiblings[] = $el; return $th/;"	f	class:HTMLElement
+appendGroupAddon	css/4_Forms.php	/^		private        $appendGroupAddon = ""; $/;"	v	class:_GUI_FORM_GENERIC_TEXTFIELD
+appendToInnerValue	0_HTMLElement.php	/^	public  function appendToInnerValue (string $value) {$this->innerValue .= $value; return $this;/;"	f	class:HTMLElement
+attributes	0_HTMLElement.php	/^	private $attributes = [];$/;"	v	class:HTMLElement
+body	advanced_test.php	/^$body = new DOM_Body("body");$/;"	v
+body	css/test.php	/^	$body = new HTMLElement("body");$/;"	v
+children	0_HTMLElement.php	/^	private $children   = [];$/;"	v	class:HTMLElement
+css_classes	0_HTMLElement.php	/^	private $css_classes = [];$/;"	v	class:HTMLElement
+endCol	css/0_GridSystem.php	/^	public function endCol() : _GUI_GRID_ROW { return $this->parent; }$/;"	f	class:_GUI_GRID_COL	typeref:unknown:_GUI_GRID_ROW
+endRow	css/3_Tables.php	/^	public function endRow() { return $this->getTableParent(); }$/;"	f	class:_GUI_TABLE_ROW
+endSubList	css/1_Typography.php	/^	public function endSubList() { return $this->getListParent(); }$/;"	f	class:_GUI_TYPOGRAPHY_List
+error_free_html	advanced_test.php	/^$error_free_html = $html->render();$/;"	v
+error_free_html	css/test.php	/^	$error_free_html = $body->render();$/;"	v
+external	1_DOM_Elements.php	/^	private $external = true; $/;"	v	class:DOM_CSS_File
+forceDoubleTag	0_HTMLElement.php	/^	private $forceDoubleTag = false;$/;"	v	class:HTMLElement
+getChild	0_HTMLElement.php	/^	public function &getChild(int $no) { return $this->children[$no]; }$/;"	f	class:HTMLElement
+getDomBodyParent	0_HTMLElement.php	/^	public function getDomBodyParent() : DOM_Body { $el = $this; while(!is_a($el,"DOM_Body")) $el =/;"	f	class:HTMLElement	typeref:unknown:DOM_Body
+getDomHeadParent	0_HTMLElement.php	/^	public function getDomHeadParent() : DOM_Head { $el = $this; while(!is_a($el,"DOM_Head")) $el =/;"	f	class:HTMLElement	typeref:unknown:DOM_Head
+getDomHtmlParent	0_HTMLElement.php	/^	public function getDomHtmlParent() : DOM_Html { $el = $this; while(!is_a($el,"DOM_Html")) $el =/;"	f	class:HTMLElement	typeref:unknown:DOM_Html
+getHorizontalFormLblSize	css/4_Forms.php	/^	public function getHorizontalFormLblSize() : array { return $this->horizontalFormLblSize; }$/;"	f	class:_GUI_FORM	typeref:unknown:array
+getInnerValue	0_HTMLElement.php	/^	public function getInnerValue() { return $this->innerValue; }$/;"	f	class:HTMLElement
+getListParent	css/1_Typography.php	/^	public function getListParent() : _GUI_TYPOGRAPHY_ListItem { return $this->parent; }$/;"	f	class:_GUI_TYPOGRAPHY_List	typeref:unknown:_GUI_TYPOGRAPHY_ListItem
+getNoOfChildren	0_HTMLElement.php	/^	public function getNoOfChildren() { return count($this->children);}$/;"	f	class:HTMLElement
+getParent	0_HTMLElement.php	/^	public function getParent() { return $this->parent; }$/;"	f	class:HTMLElement
+getParentForm	css/4_Forms.php	/^	public function getParentForm() : _GUI_FORM      { return $this->parentForm; }$/;"	f	class:_GUI_FORM_GENERIC_TEXTFIELD	typeref:unknown:_GUI_FORM
+getTableParent	css/3_Tables.php	/^	public function getTableParent() :_GUI_TABLE_BASIC { return $this->parent; }$/;"	f	class:_GUI_TABLE_ROW	typeref:unknown:_GUI_TABLE_BASIC
+getTag	0_HTMLElement.php	/^	public function getTag() { return $this->tag; }	$/;"	f	class:HTMLElement
+gridSystem	css/0_GridSystem.php	/^function gridSystem(array $sizes) {$/;"	f
+hasChildren	0_HTMLElement.php	/^	public function hasChildren() { return (empty($this->children)); }$/;"	f	class:HTMLElement
+hasDomBodyParent	0_HTMLElement.php	/^	public function hasDomBodyParent() { $el = $this; while($el->hasParent() && !is_a($el,"DOM_Body/;"	f	class:HTMLElement
+hasDomHeadParent	0_HTMLElement.php	/^	public function hasDomHeadParent() { $el = $this; while($el->hasParent() && !is_a($el,"DOM_Head/;"	f	class:HTMLElement
+hasDomHtmlParent	0_HTMLElement.php	/^	public function hasDomHtmlParent() { $el = $this; while($el->hasParent() && !is_a($el,"DOM_Html/;"	f	class:HTMLElement
+hasParentForm	css/4_Forms.php	/^	public function hasParentForm() : bool { return !is_null($this->parentForm); }$/;"	f	class:_GUI_FORM_GENERIC_TEXTFIELD	typeref:unknown:bool
+head	advanced_test.php	/^$head = new DOM_Head();$/;"	v
+header	advanced_test.php	/^$header = (new HTMLElement())->addChild($/;"	v
+help_text	css/4_Forms.php	/^		private        $help_text = "";$/;"	v	class:_GUI_FORM_GENERIC_TEXTFIELD
+horizontalForm	css/4_Forms.php	/^	private $horizontalForm = false;$/;"	v	class:_GUI_FORM
+horizontalFormLblSize	css/4_Forms.php	/^	private $horizontalFormLblSize = [];$/;"	v	class:_GUI_FORM
+html	advanced_test.php	/^$html = new DOM_Html($head,$body);$/;"	v
+id	css/4_Forms.php	/^		private        $id; $/;"	v	class:_GUI_FORM_GENERIC_TEXTFIELD
+innerValue	0_HTMLElement.php	/^	private $innerValue = "";$/;"	v	class:HTMLElement
+isHorizontalForm	css/4_Forms.php	/^	public function isHorizontalForm() : bool { return $this->horizontalForm; }$/;"	f	class:_GUI_FORM	typeref:unknown:bool
+label	css/4_Forms.php	/^		private        $label; $/;"	v	class:_GUI_FORM_GENERIC_TEXTFIELD
+name	css/4_Forms.php	/^	private $name="";$/;"	v	class:_GUI_FORM_RADIO_BUTTONS
+noTag	0_HTMLElement.php	/^	private $noTag = false;$/;"	v	class:HTMLElement
+olderSiblings	0_HTMLElement.php	/^	private $olderSiblings = [];$/;"	v	class:HTMLElement
+options	css/4_Forms.php	/^		private        $options = 0;$/;"	v	class:_GUI_FORM_GENERIC_TEXTFIELD
+options	css/4_Forms.php	/^	private $options;$/;"	v	class:_GUI_FORM_RADIO_BUTTONS
+panel	advanced_test.php	/^$panel = (new HTMLElement())->addChild($/;"	v
+parent	0_HTMLElement.php	/^	private $parent = null;$/;"	v	class:HTMLElement
+parent	css/0_GridSystem.php	/^	private $parent;$/;"	v	class:_GUI_GRID_COL
+parent	css/1_Typography.php	/^	private $parent = NULL;$/;"	v	class:_GUI_TYPOGRAPHY_List
+parent	css/3_Tables.php	/^	private $parent;$/;"	v	class:_GUI_TABLE_ROW
+parentForm	css/4_Forms.php	/^		private        $parentForm;$/;"	v	class:_GUI_FORM_GENERIC_TEXTFIELD
+placeholder	css/4_Forms.php	/^		private        $placeholder = "";$/;"	v	class:_GUI_FORM_GENERIC_TEXTFIELD
+preRender	0_HTMLElement.php	/^	public  function preRender() {return $this;}$/;"	f	class:HTMLElement
+prependGroupAddon	css/4_Forms.php	/^		private        $prependGroupAddon = ""; $/;"	v	class:_GUI_FORM_GENERIC_TEXTFIELD
+prerender	css/4_Forms.php	/^	public function prerender() {$/;"	f	class:_GUI_FORM_GENERIC_TEXTFIELD
+prerender	css/5_Buttons.php	/^	public function prerender() { $this->addClass("btn-".$this->type); }$/;"	f	class:_GUI_BUTTON
+properties	0_HTMLElement.php	/^	private $properties = [];$/;"	v	class:HTMLElement
+render	0_HTMLElement.php	/^	public  function render() {$/;"	f	class:HTMLElement
+setAttribute	0_HTMLElement.php	/^	public  function setAttribute(string $key, string $value) {$this->attributes[$key] = $value; re/;"	f	class:HTMLElement
+setChild	0_HTMLElement.php	/^	public  function setChild(int $indexNo, HTMLElement $el) { $this->children[$indexNo] = $el; ret/;"	f	class:HTMLElement
+setFilename	css/6_Images.php	/^	public function setFilename(string $filename) { $/;"	f	class:_GUI_IMAGE
+setForceDoubleTag	0_HTMLElement.php	/^	public  function setForceDoubleTag(bool $state) { $this->forceDoubleTag = $state; return $this;/;"	f	class:HTMLElement
+setGridParent	css/0_GridSystem.php	/^	public function &setGridParent(_GUI_GRID_ROW &$parent) { $this->parent = $parent; return $this;/;"	f	class:_GUI_GRID_COL
+setHorizontalForm	css/4_Forms.php	/^	public function setHorizontalForm(bool $state = true, array $horizontalFormLblSize = [] ) { $th/;"	f	class:_GUI_FORM
+setId	0_HTMLElement.php	/^	public  function setId(string $id) {if (!empty($id)) $this->attributes["id"] = $id; return $thi/;"	f	class:HTMLElement
+setInnerValue	0_HTMLElement.php	/^	public  function setInnerValue (string $value) {$this->innerValue = $value; return $this; }$/;"	f	class:HTMLElement
+setListParent	css/1_Typography.php	/^	public function setListParent(_GUI_TYPOGRAPHY_ListItem &$p) { $this->parent = $p; }$/;"	f	class:_GUI_TYPOGRAPHY_List
+setNoTag	0_HTMLElement.php	/^	public  function setNoTag(bool $state) { $this->noTag = $state; return $this; }$/;"	f	class:HTMLElement
+setOptions	css/4_Forms.php	/^	public function setOptions(int $options, $optValue1 = NULL ) {$/;"	f	class:_GUI_FORM
+setParent	0_HTMLElement.php	/^	public  function setParent(HTMLElement $el) { $this->parent = $el; return $this; }$/;"	f	class:HTMLElement
+setParentForm	css/4_Forms.php	/^	public function setParentForm(_GUI_FORM &$parent) { $this->parentForm = $parent; return $this; /;"	f	class:_GUI_FORM_GENERIC_TEXTFIELD
+setProperty	0_HTMLElement.php	/^	public  function setProperty(string $name) { $this->properties[$name] = 1; return $this; }$/;"	f	class:HTMLElement
+setRequirements	1_DOM_Elements.php	/^	public function setRequirements(array $scriptsAndStylesheets) {$/;"	f	class:DOM_Head
+setSize	css/4_Forms.php	/^	public function setSize(int $sizeOption) { global $FORM_SIZES; $this->addClass($FORM_SIZES[$siz/;"	f	class:_GUI_FORM_SELECT
+setSize	css/4_Forms.php	/^	public function setSize(int $sizeOption) { global $FORM_SIZES; $this->size = $FORM_SIZES[$sizeO/;"	f	class:_GUI_FORM_GENERIC_TEXTFIELD
+setTableParent	css/3_Tables.php	/^	public function setTableParent(_GUI_TABLE_BASIC &$parent) { $this->parent = $parent; return $th/;"	f	class:_GUI_TABLE_ROW
+setTitle	1_DOM_Elements.php	/^	public function setTitle(string $title) { $this->setAttribute("title",$title); return $this; }$/;"	f	class:DOM_Head
+setType	css/5_Buttons.php	/^	public function setType(int $context) { global $GRAPHICAL_PROP; $this->type = $GRAPHICAL_PROP[$/;"	f	class:_GUI_BUTTON
+size	css/4_Forms.php	/^		private        $size = "";$/;"	v	class:_GUI_FORM_GENERIC_TEXTFIELD
+startEigththCol	css/0_GridSystem.php	/^	public function &startEigththCol()  { return $this->getChild(7 )->setGridParent($this); }$/;"	f	class:_GUI_GRID_ROW
+startEleventhCol	css/0_GridSystem.php	/^	public function &startEleventhCol() { return $this->getChild(10)->setGridParent($this); }$/;"	f	class:_GUI_GRID_ROW
+startFifthCol	css/0_GridSystem.php	/^	public function &startFifthCol()    { return $this->getChild(4 )->setGridParent($this); }$/;"	f	class:_GUI_GRID_ROW
+startFirstCol	css/0_GridSystem.php	/^	public function &startFirstCol()    { return $this->getChild(0 )->setGridParent($this); }$/;"	f	class:_GUI_GRID_ROW
+startFourthCol	css/0_GridSystem.php	/^	public function &startFourthCol()   { return $this->getChild(3 )->setGridParent($this); }$/;"	f	class:_GUI_GRID_ROW
+startNinethCol	css/0_GridSystem.php	/^	public function &startNinethCol()   { return $this->getChild(8 )->setGridParent($this); }$/;"	f	class:_GUI_GRID_ROW
+startRow	css/3_Tables.php	/^	public function startRow() : _GUI_TABLE_ROW { $o = new _GUI_TABLE_ROW(); $o->setTableParent($th/;"	f	class:_GUI_TABLE_BASIC	typeref:unknown:_GUI_TABLE_ROW
+startSecondCol	css/0_GridSystem.php	/^	public function &startSecondCol()   { return $this->getChild(1 )->setGridParent($this); }$/;"	f	class:_GUI_GRID_ROW
+startSeventhCol	css/0_GridSystem.php	/^	public function &startSeventhCol()  { return $this->getChild(6 )->setGridParent($this); }$/;"	f	class:_GUI_GRID_ROW
+startSixthCol	css/0_GridSystem.php	/^	public function &startSixthCol()    { return $this->getChild(5 )->setGridParent($this); }$/;"	f	class:_GUI_GRID_ROW
+startSubList	css/1_Typography.php	/^	public function startSubList(int $option = LISTS_OPT_UNORDERED) {$/;"	f	class:_GUI_TYPOGRAPHY_ListItem
+startTenthCol	css/0_GridSystem.php	/^	public function &startTenthCol()    { return $this->getChild(9 )->setGridParent($this); }$/;"	f	class:_GUI_GRID_ROW
+startThirdCol	css/0_GridSystem.php	/^	public function &startThirdCol()    { return $this->getChild(2 )->setGridParent($this); }$/;"	f	class:_GUI_GRID_ROW
+startTwelvethCol	css/0_GridSystem.php	/^	public function &startTwelvethCol() { return $this->getChild(11)->setGridParent($this); }$/;"	f	class:_GUI_GRID_ROW
+tag	0_HTMLElement.php	/^	private $tag;$/;"	v	class:HTMLElement
+type	css/5_Buttons.php	/^	private $type = "default";$/;"	v	class:_GUI_BUTTON
+typeNo	css/4_Forms.php	/^		private        $typeNo; $/;"	v	class:_GUI_FORM_GENERIC_TEXTFIELD
+youngerSiblings	0_HTMLElement.php	/^	private $youngerSiblings = [];$/;"	v	class:HTMLElement
