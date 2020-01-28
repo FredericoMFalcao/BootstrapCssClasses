@@ -12,7 +12,11 @@ class HTMLElement {
 	private $noTag = false;
 	private $forceDoubleTag = false;
 	private $parent = null;
+	private $onClickPreRenderFn = null;
+	private $onClickPostRenderFn = null;
+	private $vDomId = null;
 	public	function __construct(string $tag = "div") {if (!empty($tag)) $this->tag = $tag;}
+	public  function setVDomId(int $i) {$this->vDomId = $i; return $this;}
 	public  function setId(string $id) {if (!empty($id)) $this->attributes["id"] = $id; return $this;}
 	public  function setInnerValue (string $value) {$this->innerValue = $value; return $this; }
 	public  function appendToInnerValue (string $value) {$this->innerValue .= $value; return $this; }
@@ -28,6 +32,8 @@ class HTMLElement {
 	public  function setParent(HTMLElement $el) { $this->parent = $el; return $this; }
 	public  function setForceDoubleTag(bool $state) { $this->forceDoubleTag = $state; return $this; }
 	public  function setChild(int $indexNo, HTMLElement $el) { $this->children[$indexNo] = $el; return $this; }
+	public  function setOnClickPreRenderFn(callable $fn) {$this->onClickPreRenderFn = $fn; return $this; }
+	public  function setOnClickPostRenderFn(callable $fn) {$this->onClickPostRenderFn = $fn; return $this; }
 	public  function addGraphicalProp(int $value) { 
 		global $GRAPHICAL_PROP; 
 		if (!isset($GRAPHICAL_PROP[$value])) 
@@ -61,17 +67,40 @@ class HTMLElement {
 	public function getDomHtmlParent() : DOM_Html { $el = $this; while(!is_a($el,"DOM_Html")) $el = $el->getParent(); return $el; }
 	public function getDomHeadParent() : DOM_Head { $el = $this; while(!is_a($el,"DOM_Head")) $el = $el->getParent(); return $el; }
 	public function getDomBodyParent() : DOM_Body { $el = $this; while(!is_a($el,"DOM_Body")) $el = $el->getParent(); return $el; }
+	public function getAttribute(string $key) { return  $this->attributes[$key]??null;}
+	public  function getVDomId() {return $this->vDomId ; }
+	public  function callOnClickPreRenderFn() {
+		if (is_callable($this->onClickPreRenderFn))
+			return call_user_func($this->onClickPreRenderFn, ["target"=>&$this]);
+		else
+			return null;
+	}
+	public  function callOnClickPostRenderFn() {
+		if (is_callable($this->onClickPostRenderFn))
+			return call_user_func($this->onClickPostRenderFn, ["target"=>&$this]);
+		else
+			return null;
+	}
 
 
 	public function getTag() { return $this->tag; }	
 	public function getInnerValue() { return $this->innerValue; }
 
 	public  function preRender() {return $this;}
+	private function addServerLink() {
+
+	}
 	public  function render() {
 		$output  = "";
 		$selfClosed = (empty($this->children) && empty($this->innerValue) && !$this->forceDoubleTag);
 		// Call prerender ( give a chance to fix some tree properties )
 		foreach($this->children as $child) $child->preRender();
+		// Check if element is "actionable" - i.e. can receive actions
+		if (is_callable($this->onClickPreRenderFn)) {
+			// If it is an "anchor" and an href link
+			if ($this->tag == "a")
+				$this->attributes["href"] = "?eventId=".$this->getVDomId();
+		}
 		// Add younger sibblings
 		foreach($this->youngerSiblings as $o) $output .= $o->render();
 		if (!$this->noTag) $output .= "<{$this->tag}";
